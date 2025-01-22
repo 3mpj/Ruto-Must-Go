@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruto's Policies and the Economic Downfall of Kenya</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your existing CSS file -->
+    <style>
+        /* Add your styles here (or in your linked CSS) */
+
+        /* Image Carousel Styles */
+        .carousel-container {
+            position: relative;
+            max-width: 100%;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .carousel-images img {
+            max-width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ruto's Policies and the Economic Downfall of Kenya</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <article>
+                <!-- Image Carousel with automatic switching of images every 2 seconds -->
+                <div class="carousel-container">
+                    <div class="carousel-images">
+                        <img src="../Assets/adani1.jpg" alt="Image 1">
+                        <img src="../Assets/abductions2.webp" alt="Image 2">
+                    </div>
+                </div>
+
+                <p>
+                    Since President William Ruto took office, Kenya has experienced an economic downturn, contrary to his campaign promises of uplifting the so-called "hustler nation." His fiscal policies have been criticized for exacerbating the cost of living, making daily survival increasingly difficult for the average Kenyan.
+                </p>
+                <p>
+                    One of the most contentious policies has been the introduction of new taxes. In 2024, Ruto implemented a finance bill that doubled the Value Added Tax (VAT) on fuel, leading to an immediate spike in transport and commodity prices. This tax increment directly contradicts his campaign promise to ease the financial burden on the poor and middle class, who are now grappling with higher costs for basic necessities like food and transport.
+                </p>
+                <p>
+                    The housing levy, another policy under Ruto's administration, mandates that all salaried employees contribute 1.5% of their income to a housing fund. While aimed at addressing housing shortages, it has instead reduced disposable income, significantly impacting the "hustlers" Ruto swore to support, effectively turning his promise into a financial strain for many Kenyans.
+                </p>
+                <p>
+                    Economic growth has stagnated partly due to the government's borrowing spree. Kenya's debt has soared past 10 trillion shillings, with a large portion of the national budget now dedicated to servicing this debt rather than investing in growth or social services. This has led to reduced public spending, further squeezing the economy, with inflation rates climbing to levels not seen in years, directly affecting the cost of living.
+                </p>
+                <p>
+                    The agricultural sector, a significant employer in Kenya, has been hit hard by Ruto's policies, including the mismanagement of subsidies and the fertilizer scandal where counterfeit products were distributed, crippling farmers' productivity. This has resulted in higher food prices, with the rural poor, whom Ruto claimed to champion, suffering the most.
+                </p>
+                <p>
+                    Small businesses, the backbone of the "hustler economy," have faced a harsh environment with increased taxation and regulatory burdens, leading to closures and unemployment. The promised job creation has not materialized, with unemployment rates among the youth reaching critical levels, further deepening economic despair.
+                </p>
+                <p>
+                    The currency has also depreciated under Ruto's watch, making imports more expensive and indirectly fueling inflation. For a country that relies heavily on imported goods, this has meant an unbearable rise in the cost of living for ordinary citizens, far from the economic prosperity Ruto pledged.
+                </p>
+                <p>
+                    Suggestions for recovery include a drastic policy overhaul, focusing on reducing unnecessary taxes, promoting local production to curb import dependency, and genuinely supporting small businesses. There's a call for transparency in government spending, especially regarding debt management, to ensure funds are used for economic stimulation rather than merely servicing loans. 
+                </p>
+                <p>
+                    In conclusion, the economic policies under Ruto's leadership have not only failed to lift the hustlers but have instead deepened poverty and economic inequality. The stark contrast between campaign rhetoric and the reality of governance has led to widespread disillusionment, with many Kenyans feeling betrayed by promises of economic empowerment that have not been realized.
+                </p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Ruto Must Go</p>
+    </footer>
+
+    <script>
+        // JavaScript for Auto-Switching Image Carousel
+        let slideIndex = 0;
+
+        function showSlides() {
+            let slides = document.querySelectorAll(".carousel-images img");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  // Hide all images
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;  // Loop back to the first image
+            }
+            slides[slideIndex - 1].style.display = "block";  // Show the current image
+            setTimeout(showSlides, 2000);  // Change image every 2 seconds
+        }
+
+        showSlides();  // Initial call to start the carousel
+    </script>
+</body>
+</html>

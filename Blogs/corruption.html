@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corruption Cases Linked to William Ruto Since 1992</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your existing CSS file -->
+    <style>
+        /* Add your styles here (or in your linked CSS) */
+
+        /* Image Carousel Styles */
+        .carousel-container {
+            position: relative;
+            max-width: 100%;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 1s ease-in-out;
+        }
+
+        .carousel-images img {
+            max-width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Corruption Cases Linked to William Ruto Since 1992</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <article>
+                <!-- Image Carousel with automatic switching of images every 2 seconds -->
+                <div class="carousel-container">
+                    <div class="carousel-images">
+                        <img src="../Assets/maandamano1.webp" alt="Image 1">
+                        <img src="../Assets/tq_gkuesghzdx-71l1500h.png" alt="Image 2">
+                    </div>
+                </div>
+
+                <p>
+                    William Ruto's involvement in corruption scandals dates back to his early political career. In the 1990s, as part of the youth wing of the then-dominant KANU party, he was linked to various allegations of financial misconduct. One of the earliest known cases was the Weston Hotel scandal, where Ruto was accused of involvement in the irregular acquisition of land in Nairobi, as reported by The Nation in 1997.
+                </p>
+                <p>
+                    During his tenure as Minister of Agriculture in the early 2000s, Ruto faced allegations related to the maize scandal, where he was accused of facilitating the illegal sale of maize from the national strategic reserves, according to reports from The Standard in 2008.
+                </p>
+                <p>
+                    As Deputy President and in his presidential term, several scandals have been associated with his name. One of the notable ones was the Arror and Kimwarer dams scandal, where billions of shillings were reportedly misappropriated. This was extensively covered by Daily Nation, highlighting the loss of public funds intended for dam construction that never materialized.
+                </p>
+                <p>
+                    Another significant case was the KEMSA (Kenya Medical Supplies Authority) scandal in 2020, where during the COVID-19 response, millions were allegedly siphoned off in a deal for mosquito nets and PPE. This was documented by Citizen TV, with calls for investigations into the procurement process.
+                </p>
+                <p>
+                    More recently, under his presidency, Ruto has been linked to controversies over the edible oil scandal where local manufacturers accused the government of favoring imported oils through dubious government-to-government deals, as reported by Business Daily Africa. There have also been allegations of corruption in the fertilizer distribution program, with fake fertilizers being distributed, stirring significant public outcry as highlighted by The Star.
+                </p>
+                <p>
+                    The scandal involving the disappearance of condemned sugar from government warehouses in 2023 further added to the list of corruption allegations, with NTV Kenya reporting on how this led to potential health hazards and financial losses.
+                </p>
+                <p>
+                    Throughout these years, Ruto has often denied direct involvement, claiming these are politically motivated attacks. However, the recurring nature of these allegations has led to widespread calls for transparency and accountability. Various Kenyan media outlets have continuously called for thorough investigations, especially with the public's growing frustration over governance and resource management.
+                </p>
+                <p>
+                    In 2024, Ruto was ranked among the most corrupt leaders globally by the Organized Crime and Corruption Reporting Project (OCCRP), based on public nominations highlighting his administration's perceived corruption, as covered by multiple Kenyan news sources including The EastAfrican and Capital FM.
+                </p>
+                <p>
+                    In conclusion, the narrative around William Ruto's political career is punctuated by numerous corruption allegations, reflecting a pattern that spans decades. While no single case has definitively proven his personal culpability, the consistent association with these scandals has fueled significant public skepticism and demand for a cleaner political environment in Kenya.
+                </p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Ruto Must Go</p>
+    </footer>
+
+    <script>
+        // JavaScript for Auto-Switching Image Carousel
+        let slideIndex = 0;
+
+        function showSlides() {
+            let slides = document.querySelectorAll(".carousel-images img");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  // Hide all images
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;  // Loop back to the first image
+            }
+            slides[slideIndex - 1].style.display = "block";  // Show the current image
+            setTimeout(showSlides, 2000);  // Change image every 2 seconds
+        }
+
+        showSlides();  // Initial call to start the carousel
+    </script>
+</body>
+</html>
